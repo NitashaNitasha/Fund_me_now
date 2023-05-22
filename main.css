@@ -1,0 +1,23 @@
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    background-color: rgb(100, 173, 237);
+    flex-direction: row;
+    padding-right: 10px;
+    
+}
+button{
+    background-color: crimson;
+    border: none;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    color:whitesmoke;
+}
+body{
+    margin: 0px;
+}
+p{
+    color:whitesmoke;
+}
