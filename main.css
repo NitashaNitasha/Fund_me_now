@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .nav{
     display:flex;
     justify-content: flex-end;
@@ -9,6 +12,7 @@
 }
 .nav div{
     margin-left:50px;
+    margin-right: 10px;
  
 }
 .nav .button{
@@ -23,7 +27,8 @@
     line-height: 30px;
     color:whitesmoke;
 }
-body{
-    margin: 0px;
+.body1{
+    background-image: url('bg1.jpg');
+    height: 90vh;width: 100vw;
 }
 
