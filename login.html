@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/68049d2036.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" rel="stylesheet"href="login.css">
+    </head>
+    <body>
+        <div class="mainbody">
+            <div class="banner"><img src="banner.jpg" alt=""><div>
+                <br>
+            <div class="loginbox">
+                <div>Register</div>
+                <form method="get">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name" required>
+                    <br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Email" required>
+                    <br>
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" placeholder="Phone Number" min="10" max="10">
+                    <br>
+                    <label>Select your Gender</label>
+                    <br>
+                    <select name="Gender" id="gender">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Other</option>
+                    </select>
+                    <br>
+                    <label>Select proffesion</label>
+                    <br>
+                    <select name="proffesion" id="occupation">
+                        <option value="">Student</option>
+                        <option value="">Educationer</option>
+                        <option value="">Unemployed</option>
+                        <option value="">Other</option>
+                    </select>
+                    <br>
+                    <label>Date of birth</label>
+                    <br>
+                    <input type="date" class="anonymous">
+                    <br>
+                    <label>Image Identification proof</label>
+                    <br>
+                    <input type="file" class="anonymous">
+                    <br>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
