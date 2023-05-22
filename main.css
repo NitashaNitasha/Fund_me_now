@@ -1,23 +1,29 @@
 .nav{
     display:flex;
     justify-content: flex-end;
-    gap:20px;
-    background-color: rgb(100, 173, 237);
-    flex-direction: row;
-    padding-right: 10px;
-    
+    align-items: center;
+    height: 40px;
+    background-color: rgb(182, 219, 252);
+    flex-direction: row; 
+    line-height: 40px;
 }
-button{
+.nav div{
+    margin-left:50px;
+ 
+}
+.nav .button{
     background-color: crimson;
     border: none;
     text-align: center;
-    width: 70px;
-    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 30px;
     color:whitesmoke;
 }
 body{
     margin: 0px;
 }
-p{
-    color:whitesmoke;
-}
+
